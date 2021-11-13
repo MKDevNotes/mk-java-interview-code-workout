@@ -1,4 +1,4 @@
-package org.dn.interview.snippet.array;
+package org.dn.interview.snippet;
 
 import static java.util.Arrays.stream;
 
@@ -25,5 +25,10 @@ public class ArrayMissingNumber {
         sum = (inputlenght * (inputlenght+1))/2;
         System.out.println(" Sum  "+sum);
         System.out.println(" Missing Number "+ (sum-sumOfArray));
+    }
+
+    @Override
+    public String toString() {
+        return "ArrayMissingNumber []";
     }
 }
